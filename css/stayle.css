@@ -1,0 +1,347 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wraper {
+  width: 1300px;
+  margin: auto;
+  padding: 20px 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__logo {
+  width: 220px;
+}
+.navbar__list {
+  gap: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__link {
+  /* HOME */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+.navbar__link__hover {
+  color: #312d2d;
+  transition: all 0.3s linear;
+}
+
+.intro {
+  background-image: url(../img/coffe.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 500px;
+  border-radius: 20px;
+  margin-top: 70px;
+  padding: 60px 70px;
+}
+.intro__title {
+  /* Great coffee made si */
+  width: 500px;
+  font-family: "Fraunces ";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* or 100% */
+  color: #FEFCF7;
+}
+.intro__text {
+  /* Start your mornings */
+  width: 500px;
+  margin: 20px 0;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.intro__btn:hover {
+  border-color: aqua;
+}
+.intro__btn:active {
+  border-color: rgb(103, 146, 146);
+}
+.intro__btn {
+  /* Group 3 */
+  width: 217px;
+  height: 56px;
+  /* Rectangle */
+  background: #66D2CF;
+  border-radius: 6px;
+  /* Create your plan */
+  font-family: "Fraunces ";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  color: #FEFCF7;
+  border: none;
+}
+
+.collection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  background-image: url(../img/collecion.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.collection__card {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+.collection__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #333D4B;
+}
+.collection__text {
+  /* Light and flavorful */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  color: #333D4B;
+}
+
+.why {
+  position: relative;
+  height: 600px;
+  border-radius: 20px;
+  background-color: #1b1a1a;
+  color: white;
+  padding: 50px;
+}
+.why__title {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  /* identical to box height, or 120% */
+  text-align: center;
+  color: #FEFCF7;
+}
+.why__text {
+  /* A large part of our */
+  font-family: "Barlow";
+  width: 600px;
+  margin: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.why__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  gap: 25px;
+  bottom: -100px;
+}
+.why__card {
+  /* Group 10 Copy 2 */
+  width: 350px;
+  height: 382px;
+  background-color: #0E8784;
+  border-radius: 20px;
+  padding: 40px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.why__title {
+  /* Best quality */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #FEFCF7;
+}
+.why__text {
+  /* Best quality */
+  font-family: "Fraunces ";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #FEFCF7;
+}
+
+.work {
+  margin-top: 200px;
+}
+.work__title {
+  /* How it works */
+  font-family: "Fraunces ";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #83888F;
+}
+.work__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  margin: 40px 0;
+}
+.work__circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(33, 140, 104);
+}
+.work__hr {
+  height: 2px;
+  border-radius: 20px;
+  border: 2px solid;
+  width: 500px;
+}
+.work__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.work__subtitle {
+  /* 01 */
+  font-family: "Fraunces ";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* identical to box height, or 100% */
+  color: #FDD6BA;
+}
+.work__maintitle {
+  /* Pick your coffee */
+  font-family: "Fraunces ";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  /* or 112% */
+  color: #333D4B;
+}
+.work__text {
+  /* Select from our evol */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 300px;
+  /* or 162% */
+  margin: 20px 0;
+  color: #333D4B;
+}
+.work__btn:hover {
+  border-color: aqua;
+}
+.work__btn:active {
+  border-color: rgb(103, 146, 146);
+}
+.work__btn {
+  /* Group 3 */
+  width: 217px;
+  height: 56px;
+  /* Rectangle */
+  background: #66D2CF;
+  border-radius: 6px;
+  /* Create your plan */
+  font-family: "Fraunces ";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  color: #FEFCF7;
+  border: none;
+}
+
+.footer {
+  background-color: rgb(31, 29, 29);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  border-radius: 20px;
+  margin-top: 70px;
+}
+.footer__logo {
+  width: 200px;
+}
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.footer__link {
+  color: white;
+  font-family: "Barlow";
+}/*# sourceMappingURL=stayle.css.map */

@@ -1,0 +1,44 @@
+ @mixin Display () {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ @mixin btn() {
+     &:hover {
+         border-color: aqua;
+     }
+
+     &:active {
+         border-color: rgb(103, 146, 146);
+     }
+
+     /* Group 3 */
+
+     width: 217px;
+     height: 56px;
+
+
+
+     /* Rectangle */
+
+
+     background: #66D2CF;
+     border-radius: 6px;
+
+
+     /* Create your plan */
+
+
+     font-family: 'Fraunces ';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 18px;
+     line-height: 25px;
+     /* identical to box height, or 139% */
+     text-align: center;
+
+     color: #FEFCF7;
+
+     border: none;
+ }

@@ -1,0 +1,21 @@
+.footer{
+background-color: rgb(31, 29, 29);
+@include Display();
+padding: 30px 50px;
+border-radius: 20px;
+margin-top: 70px;
+
+
+&__logo{
+    width: 200px;
+}
+&__list{
+ @include Display();
+ gap: 20px;  
+}
+
+&__link{
+    color: white;
+    font-family: 'Barlow';
+}
+}

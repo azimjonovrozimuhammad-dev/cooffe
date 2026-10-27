@@ -1,0 +1,100 @@
+.why {
+  position: relative;
+  height: 600px;
+  border-radius: 20px;
+  background-color: #1b1a1a;
+  color: white;
+  padding: 50px;
+
+  &__title {
+    text-align: center;
+    margin-top: 30px;
+
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    /* identical to box height, or 120% */
+    text-align: center;
+
+    color: #FEFCF7;
+
+  }
+
+
+  &__text {
+    /* A large part of our */
+
+    font-family: 'Barlow';
+    width: 600px;
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+
+    color: #FEFCF7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+  }
+
+  &__cards {
+    @include Display();
+    position: absolute;
+    gap: 25px;
+    bottom: -100px;
+  }
+
+  &__card {
+    /* Group 10 Copy 2 */
+
+    width: 350px;
+    height: 382px;
+    background-color: #0E8784;
+    border-radius: 20px;
+    padding: 40px 30px;
+    @include Display();
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  &__title {
+    /* Best quality */
+
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    text-align: center;
+
+    color: #FEFCF7;
+
+
+  }
+
+  &__text {
+    /* Best quality */
+
+
+    font-family: 'Fraunces ';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    text-align: center;
+
+    color: #FEFCF7;
+
+
+  }
+}

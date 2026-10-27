@@ -1,0 +1,83 @@
+.work {
+    margin-top: 200px;
+
+    &__title {
+        /* How it works */
+        font-family: 'Fraunces ';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height, or 133% */
+        color: #83888F;
+
+
+    }
+
+    &__top {
+        @include Display();
+        width: 900px;
+        margin: 40px 0;
+    }
+
+    &__circle {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid rgb(33, 140, 104);
+    }
+
+    &__hr {
+        height: 2px;
+        // background-color: black;
+        border-radius: 20px;
+        border: 2px solid;
+        width: 500px;
+    }
+
+    &__bottom {
+        @include Display();
+    }
+
+    &__subtitle {
+        /* 01 */
+        font-family: 'Fraunces ';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        /* identical to box height, or 100% */
+
+        color: #FDD6BA;
+    }
+
+    &__maintitle {
+        /* Pick your coffee */
+        font-family: 'Fraunces ';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        /* or 112% */
+
+        color: #333D4B;
+    }
+
+    &__text {
+        /* Select from our evol */
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        width: 300px;
+        /* or 162% */
+        margin: 20px 0;
+
+        color: #333D4B;
+    }
+
+    &__btn {
+        @include btn();
+    }
+}

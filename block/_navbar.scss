@@ -1,0 +1,31 @@
+.navbar {
+    @include Display();
+    &__logo {
+        width: 220px;
+    }
+
+    &__list {
+        gap: 40px;
+        @include Display()
+    }
+
+    &__link {
+        /* HOME */
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height, or 125% */
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+
+        color: #83888F;
+
+
+        &__hover {
+            color: #312d2d;
+            transition: all 0.3s linear;
+        }
+    }
+}
