@@ -1,0 +1,36 @@
+.creat{
+ justify-content: center;
+ align-items: center;
+ background-image: url(../img/bgimg.png);
+ margin-top: 70px;
+ height: 450px;
+ margin-top: 70px;
+ border-radius: 20px;
+ 
+ &__title{
+    /* Create a plan */ 
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 72px;
+   line-height: 72px;
+   padding: 20px 0;
+   /* identical to box height, or 100% */
+   color: #FEFCF7;
+ }
+ &__text{
+    /* Build a subscription */
+   font-family: 'Barlow';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   /* or 162% */
+   color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 500px;
+ }
+
+
+}

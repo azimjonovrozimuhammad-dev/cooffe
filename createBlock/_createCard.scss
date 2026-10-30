@@ -1,0 +1,141 @@
+.drink{
+   @include Display();
+   text-align: start;
+   margin-top: 100px; 
+
+   &__right{
+    width: 800px;
+   }
+
+   &__itme{
+     @include Display();
+     gap: 30px;
+     margin-top: 20px;
+   }
+   &__itme h2{
+    /* 01 */
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+color: #0E8784;
+   }
+
+ 
+   &__itme p{
+  /* Preferences */
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+color: #333D4B;
+
+
+
+   &:hover{
+    color: #0E8784;
+   }
+   }
+     hr{
+    border: 1px solid;
+    margin-top: 20px;
+   }
+
+   &__card{
+    @include Display();
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    
+    &-top{
+    @include Display ();
+    gap: 50px;
+    p{
+    /* How do you drink you */
+    font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+    color: #83888F;
+    }
+    i{
+        font-size: 50px;
+    }
+    
+    }
+   &-bottom{
+    @include Display();
+    gap: 30px;
+    &-card{
+        width: 250px;
+        height: 220px;
+        border: 1px solid;
+        border-radius: 20px;
+        @include Display();
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        text-align: center;
+        padding: 30px 20px;
+        background-color: aqua;
+        &:hover{
+            background-color: antiquewhite;
+        }
+        &:active{
+            background-color: #333D4B;
+        }
+    }
+   }
+}
+   
+}
+.order{
+  width: 700px;
+  height: 200px;
+  border: 1px solid;
+  background-color: #333D4B;
+  padding: 20px 10px;
+  border-radius: 20px;
+  margin-top: 30px;
+  &__title{
+    /* Order Summary */
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+text-transform: uppercase;
+width: 500px;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+  }
+  &__text{
+    /* “I drink my coffee a */
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+color: #FFFFFF;
+margin-top: 20px;
+
+  }
+}
+.btn{
+  @include btn();
+  margin-top: 20px;
+}

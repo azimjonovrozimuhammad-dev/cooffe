@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -344,4 +345,391 @@ a {
 .footer__link {
   color: white;
   font-family: "Barlow";
+}
+.footer__link:hover {
+  background-color: rgb(67, 28, 28);
+}
+
+.abautIntro {
+  margin-top: 70px;
+  height: 400px;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding: 80px 40px;
+}
+.abautIntro__title {
+  /* About Us */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: white;
+}
+.abautIntro__text {
+  /* Coffeeroasters began */
+  font-family: "Barlow";
+  width: 500px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  margin-top: 40px;
+  color: #FEFCF7;
+}
+
+.aur {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+  margin: 70px 0;
+}
+.aur__title {
+  /* Our commitment */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #333D4B;
+}
+.aur__text {
+  /* We’re built on a sim */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  margin-top: 30px;
+  width: 500px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.quality {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 470px;
+  background-color: rgb(58, 55, 55);
+  margin: 50px 0;
+  border-radius: 20px;
+  padding: 0 50px;
+}
+.quality__title {
+  /* Uncompromising quali */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #FEFCF7;
+}
+.quality .qualty__text {
+  /* Although we work wit */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  width: 500px;
+  color: #FEFCF7;
+  margin-top: 20px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.quality__right {
+  margin-top: -200px;
+  border-radius: 20px;
+}
+
+.cauntry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+.cauntry__title {
+  /* Our headquarters */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #83888F;
+}
+.cauntry__h2 {
+  /* United Kingdom */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+  color: #333D4B;
+}
+.cauntry p {
+  /* 68 Asfordby Rd Alcas */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #333D4B;
+}
+
+.creat {
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/bgimg.png);
+  margin-top: 70px;
+  height: 450px;
+  margin-top: 70px;
+  border-radius: 20px;
+}
+.creat__title {
+  /* Create a plan */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  padding: 20px 0;
+  /* identical to box height, or 100% */
+  color: #FEFCF7;
+}
+.creat__text {
+  /* Build a subscription */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  width: 500px;
+}
+
+.work2 {
+  height: 500px;
+  background-color: rgb(30, 28, 28);
+  padding: 20px 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.work2__subtitle {
+  /* 01 */
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* identical to box height, or 100% */
+  color: #FDD6BA;
+}
+.work2__maintitle {
+  /* Pick your coffee */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  /* or 112% */
+  color: #FEFCF7;
+}
+.work2__text {
+  /* Select from our evol */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #FEFCF7;
+  gap: 10px;
+}
+
+.drink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  margin-top: 100px;
+}
+.drink__right {
+  width: 800px;
+}
+.drink__itme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.drink__itme h2 {
+  /* 01 */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #0E8784;
+}
+.drink__itme p {
+  /* Preferences */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #333D4B;
+}
+.drink__itme p:hover {
+  color: #0E8784;
+}
+.drink hr {
+  border: 1px solid;
+  margin-top: 20px;
+}
+.drink__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+.drink__card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.drink__card-top p {
+  /* How do you drink you */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #83888F;
+}
+.drink__card-top i {
+  font-size: 50px;
+}
+.drink__card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.drink__card-bottom-card {
+  width: 250px;
+  height: 220px;
+  border: 1px solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  padding: 30px 20px;
+  background-color: aqua;
+}
+.drink__card-bottom-card:hover {
+  background-color: antiquewhite;
+}
+.drink__card-bottom-card:active {
+  background-color: #333D4B;
+}
+
+.order {
+  width: 700px;
+  height: 200px;
+  border: 1px solid;
+  background-color: #333D4B;
+  padding: 20px 10px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.order__title {
+  /* Order Summary */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-transform: uppercase;
+  width: 500px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.order__text {
+  /* “I drink my coffee a */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  border-color: aqua;
+}
+.btn:active {
+  border-color: rgb(103, 146, 146);
+}
+.btn {
+  /* Group 3 */
+  width: 217px;
+  height: 56px;
+  /* Rectangle */
+  background: #66D2CF;
+  border-radius: 6px;
+  /* Create your plan */
+  font-family: "Fraunces ";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  color: #FEFCF7;
+  border: none;
+  margin-top: 20px;
+}
+
+.order__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  height: 200px;
+  background-color: black;
+  border-radius: 20px;
 }/*# sourceMappingURL=stayle.css.map */

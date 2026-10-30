@@ -1,0 +1,42 @@
+.work2{
+ height: 500px;
+ background-color: rgb(30, 28, 28);
+ padding: 20px 20px;
+ border-radius: 20px;
+ margin-top: 30px;
+ &__subtitle{
+    /* 01 */
+ font-family: 'Fraunces 9pt';
+ font-style: normal;
+ font-weight: 900;
+ font-size: 72px;
+ line-height: 72px;
+ /* identical to box height, or 100% */
+
+ color: #FDD6BA;
+ }
+ &__maintitle{
+    /* Pick your coffee */
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+/* or 112% */
+
+color: #FEFCF7;
+ }
+
+ &__text{   
+  /* Select from our evol */
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #FEFCF7;
+  gap: 10px;
+ }
+}

@@ -1,0 +1,39 @@
+.quality{
+    @include Display();
+    height: 470px;
+    background-color: rgb(58, 55, 55);
+    margin: 50px 0;
+    border-radius: 20px;
+    padding: 0 50px;
+  
+
+    &__title{
+        /* Uncompromising quali */
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+    color: #FEFCF7;
+    }
+    .qualty__text{
+    /* Although we work wit */
+     font-family: 'Barlow';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 26px;
+     /* or 162% */
+     width: 500px;
+     color: #FEFCF7;
+     margin-top: 20px;
+     mix-blend-mode: normal;
+     opacity: 0.8;
+    }
+    &__right{
+     margin-top: -200px;  
+     border-radius: 20px;     
+    }
+}
