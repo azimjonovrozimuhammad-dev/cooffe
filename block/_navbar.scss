@@ -28,4 +28,31 @@
             transition: all 0.3s linear;
         }
     }
+    &__burger{
+        @include Display();
+        flex-direction: column;
+        gap: 3px;
+        display: none;
+        &__itme{
+            width: 25px;
+            height: 2px;
+            background-color: black;
+            border-radius: 20px;
+        }
+    }
 }
+
+@media only screen and (max-width:480px){
+    .navbar{
+        &__list{
+            display: none;
+        }
+        &__burger{
+            display: flex;
+        }
+        &__logo{
+            width: 180px;
+        }
+    }
+}
+

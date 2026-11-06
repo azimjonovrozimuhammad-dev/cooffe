@@ -17,3 +17,10 @@ a {
    margin: auto;
    padding: 20px 50px;
 }
+
+@media only screen and (max-width:480px) {
+   .wraper{
+      width: 100%;
+      padding: 20px 30px;
+   }
+}

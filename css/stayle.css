@@ -19,6 +19,12 @@ a {
   padding: 20px 50px;
 }
 
+@media only screen and (max-width: 480px) {
+  .wraper {
+    width: 100%;
+    padding: 20px 30px;
+  }
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -49,7 +55,32 @@ a {
   color: #312d2d;
   transition: all 0.3s linear;
 }
+.navbar__burger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 3px;
+  display: none;
+}
+.navbar__burger__itme {
+  width: 25px;
+  height: 2px;
+  background-color: black;
+  border-radius: 20px;
+}
 
+@media only screen and (max-width: 480px) {
+  .navbar__list {
+    display: none;
+  }
+  .navbar__burger {
+    display: flex;
+  }
+  .navbar__logo {
+    width: 180px;
+  }
+}
 .intro {
   background-image: url(../img/coffe.png);
   background-repeat: no-repeat;
@@ -110,6 +141,38 @@ a {
   border: none;
 }
 
+@media only screen and (max-width: 480px) {
+  .intro {
+    padding: 30px 35px;
+    height: 350px;
+    margin-top: 36px;
+  }
+  .intro__title {
+    width: 100%;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    text-align: center;
+    color: #FEFCF7;
+  }
+  .intro__text {
+    /* Start your mornings */
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  .intro__btn {
+    margin: auto;
+    display: block;
+  }
+}
 .collection {
   display: flex;
   justify-content: space-between;
@@ -151,6 +214,11 @@ a {
   color: #333D4B;
 }
 
+@media only screen and (max-width: 480px) {
+  .collection {
+    flex-direction: column;
+  }
+}
 .why {
   position: relative;
   height: 600px;
@@ -230,6 +298,46 @@ a {
   color: #FEFCF7;
 }
 
+@media only screen and (max-width: 480px) {
+  .why {
+    width: 100%;
+  }
+  .why__title {
+    /* Why choose us? */
+    font-size: 28px;
+    line-height: 28px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    color: #FEFCF7;
+  }
+  .why__text {
+    /* A large part of our */
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: start;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  .why__cards {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .why__card {
+    /* Rectangle */
+    width: 279px;
+    height: 382px;
+    left: 48px;
+    top: 2456px;
+    background: #0E8784;
+    border-radius: 8px;
+  }
+}
 .work {
   margin-top: 200px;
 }
@@ -324,6 +432,97 @@ a {
   border: none;
 }
 
+@media only screen and (max-width: 480px) {
+  .work {
+    position: relative;
+    width: 100%;
+    margin-top: 1000px;
+  }
+  .work__title {
+    /* How it works */
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    color: #83888F;
+  }
+  .work__top {
+    display: none;
+  }
+  .work__subtitle {
+    position: relative;
+    /* 01 */
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    color: #FDD6BA;
+  }
+  .work__maintitle {
+    /* Pick your coffee */
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height, or 114% */
+    text-align: center;
+    color: #333D4B;
+  }
+  .work__text {
+    /* Select from our evol */
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #333D4B;
+  }
+  .work__card1 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 10.04%;
+    bottom: 67.38%;
+    margin-top: 30px;
+  }
+  .work__card2 {
+    /* Group 14 Copy */
+    margin-top: 200px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 37.63%;
+    bottom: 39.78%;
+    margin-top: 300px;
+  }
+  .work__card3 {
+    /* Group 14 Copy 2 */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 65.23%;
+    bottom: 12.1%;
+    margin-top: 600px;
+  }
+  .work__btn {
+    /* Group 3 */
+    position: absolute;
+    left: 16.82%;
+    right: 16.82%;
+    top: 94.98%;
+    bottom: 0%;
+    margin-top: 820px;
+  }
+}
 .footer {
   background-color: rgb(31, 29, 29);
   display: flex;
@@ -350,6 +549,22 @@ a {
   background-color: rgb(67, 28, 28);
 }
 
+@media only screen and (max-width: 480px) {
+  .footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 900px;
+  }
+  .footer__img {
+    /* Group 5 */
+    position: absolute;
+    width: 217px;
+    height: 24px;
+    left: 79px;
+    top: 5060px;
+  }
+}
 .abautIntro {
   margin-top: 70px;
   height: 400px;

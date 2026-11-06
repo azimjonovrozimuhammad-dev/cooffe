@@ -50,3 +50,43 @@
 
     }
 }
+
+
+@media only  screen and (max-width:480px){
+    .intro{
+     padding: 30px 35px;
+     height: 350px;
+     margin-top: 36px;
+      
+        &__title{
+            width: 100%;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+text-align: center;
+
+color: #FEFCF7;
+        }
+        &__text{
+            /* Start your mornings */
+            width: 100%;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+text-align: center;
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+
+        }
+        &__btn{
+            margin: auto;
+            display: block;
+        }
+    }
+    
+}
