@@ -548,23 +548,11 @@ a {
 .footer__link:hover {
   background-color: rgb(67, 28, 28);
 }
-
-@media only screen and (max-width: 480px) {
-  .footer {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    margin-top: 900px;
-  }
-  .footer__img {
-    /* Group 5 */
-    position: absolute;
-    width: 217px;
-    height: 24px;
-    left: 79px;
-    top: 5060px;
-  }
+.footer__img {
+  width: 20px;
+  height: 20px;
 }
+
 .abautIntro {
   margin-top: 70px;
   height: 400px;
@@ -597,6 +585,44 @@ a {
   color: #FEFCF7;
 }
 
+@media only screen and (max-width: 480px) {
+  .abautIntro {
+    border-radius: 20px;
+    padding: 30px 35px;
+    height: 350px;
+    margin-top: 50px;
+  }
+  .abautIntro__title {
+    width: 100%;
+    /* About Us */
+    height: 28px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 14px - 87px);
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    color: #FEFCF7;
+    margin-top: 50px;
+  }
+  .abautIntro__text {
+    width: 100%;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}
 .aur {
   display: flex;
   justify-content: space-between;
@@ -629,6 +655,55 @@ a {
   opacity: 0.8;
 }
 
+@media only screen and (max-width: 480px) {
+  .aur {
+    margin-top: 40px;
+    position: relative;
+  }
+  .aur__img {
+    width: 327px;
+    height: 400px;
+    left: 24px;
+    top: 610px;
+  }
+  .aur__title {
+    /* Our commitment */
+    position: absolute;
+    height: 48px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 24px - 202.5px);
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    color: #333D4B;
+    margin-top: 550px;
+  }
+  .aur__text {
+    /* We’re built on a sim */
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 17.22%;
+    bottom: 0%;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-top: 550px;
+  }
+}
 .quality {
   display: flex;
   justify-content: space-between;
@@ -649,7 +724,7 @@ a {
   /* identical to box height, or 120% */
   color: #FEFCF7;
 }
-.quality .qualty__text {
+.quality__text {
   /* Although we work wit */
   font-family: "Barlow";
   font-style: normal;
@@ -668,6 +743,42 @@ a {
   border-radius: 20px;
 }
 
+@media only screen and (max-width: 480px) {
+  .quality {
+    margin-top: 1000px;
+    position: relative;
+    flex-direction: column-reverse;
+    gap: 100px;
+  }
+  .quality__title {
+    /* Uncompromising quali */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+    /* or 100% */
+    text-align: center;
+    color: #FEFCF7;
+  }
+  .quality__img {
+    border-radius: 20px;
+    width: 350px;
+    height: 250px;
+  }
+  .quality__text {
+    /* Although we work wit */
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}
 .cauntry {
   display: flex;
   justify-content: space-between;
@@ -706,6 +817,48 @@ a {
   color: #333D4B;
 }
 
+@media (max-width: 480px) {
+  /* Headquarters bo'limi */
+  .cauntry {
+    padding: 40px 24px;
+    text-align: center;
+  }
+  .cauntry__title {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+  /* Ustun o'rniga ketma-ket joylashuv */
+  .cauntry__h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .cauntry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+  }
+  .cauntry img,
+  .cauntry svg {
+    width: 48px;
+    height: auto;
+  }
+  .cauntry h3 {
+    font-family: "Fraunces", serif;
+    font-size: 22px;
+    margin: 0;
+  }
+  .cauntry address {
+    font-size: 11px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    color: #6b6b6b;
+    font-style: normal;
+  }
+}
 .creat {
   justify-content: center;
   align-items: center;
@@ -740,6 +893,37 @@ a {
   width: 500px;
 }
 
+@media only screen and (max-width: 480px) {
+  .creat {
+    margin-top: 40px;
+  }
+  .creat__title {
+    /* Create a plan */
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    color: #FEFCF7;
+  }
+  .creat__text {
+    width: 100%;
+    /* Build a subscription */
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-top: 50px;
+  }
+}
 .work2 {
   height: 500px;
   background-color: rgb(30, 28, 28);
@@ -779,6 +963,89 @@ a {
   gap: 10px;
 }
 
+@media only screen and (max-width: 480px) {
+  .work2 {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    height: 1000px;
+  }
+  .work2__title {
+    /* How it works */
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    color: #83888F;
+  }
+  .work2__top {
+    display: none;
+  }
+  .work2__subtitle {
+    position: relative;
+    /* 01 */
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    color: #FDD6BA;
+  }
+  .work2__maintitle {
+    /* Pick your coffee */
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height, or 114% */
+    text-align: center;
+    color: #333D4B;
+  }
+  .work2__text {
+    /* Select from our evol */
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #333D4B;
+  }
+  .work2__card1 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 10.04%;
+    bottom: 67.38%;
+    margin-top: 10px;
+  }
+  .work2__card2 {
+    /* Group 14 Copy */
+    margin-top: 200px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 37.63%;
+    bottom: 39.78%;
+    margin-top: 50px;
+  }
+  .work2__card3 {
+    /* Group 14 Copy 2 */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 65.23%;
+    bottom: 12.1%;
+    margin-top: 100px;
+  }
+}
 .drink {
   display: flex;
   justify-content: space-between;

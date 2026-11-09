@@ -34,3 +34,39 @@
 
 
 }
+
+@media only screen and ( max-width:480px){
+   .creat{
+      margin-top: 40px;
+      &__title{
+         /* Create a plan */
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 40px;
+/* identical to box height, or 100% */
+text-align: center;
+
+color: #FEFCF7;
+      }
+      &__text{
+         width: 100%;
+         /* Build a subscription */
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+text-align: center;
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+margin-top: 50px;
+
+      }
+   }
+}

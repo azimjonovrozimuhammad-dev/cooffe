@@ -31,3 +31,59 @@
     opacity: 0.8;
     }
 }
+@media only screen  and (max-width:480px){
+    .aur{
+        margin-top: 40px;
+        position: relative;
+        &__img{
+width: 327px;
+height: 400px;
+left: 24px;
+top: 610px;
+        }
+        &__title{
+        /* Our commitment */
+
+position: absolute;
+height: 48px;
+left: 0%;
+right: 0%;
+top: calc(50% - 48px/2 - 202.5px);
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #333D4B;
+
+  margin-top: 550px;
+        }
+        &__text{
+            /* We’re built on a sim */
+ width: 100%;
+position: absolute;
+left: 0%;
+right: 0%;
+top: 17.22%;
+bottom: 0%;
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+text-align: center;
+
+color: #333D4B;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+  margin-top: 550px;
+        }
+    }
+}

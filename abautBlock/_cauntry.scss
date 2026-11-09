@@ -43,3 +43,51 @@ color: #333D4B;
 
  }
 }
+@media (max-width: 480px) {
+  /* Headquarters bo'limi */
+  .cauntry {
+    padding: 40px 24px;
+    text-align: center;
+  }
+
+  .cauntry__title {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+
+  /* Ustun o'rniga ketma-ket joylashuv */
+  .cauntry__h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .cauntry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .cauntry img,
+  .cauntry svg {
+    width: 48px;
+    height: auto;
+  }
+
+   .cauntry h3 {
+    font-family: "Fraunces", serif;
+    font-size: 22px;
+    margin: 0;
+  }
+
+  .cauntry address {
+    font-size: 11px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    color: #6b6b6b;
+    font-style: normal;
+  }
+}

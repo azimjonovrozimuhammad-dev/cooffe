@@ -40,3 +40,97 @@ color: #FEFCF7;
   gap: 10px;
  }
 }
+@media only screen and (max-width:480px){
+  .work2{
+   position: relative;
+   width: 100%;
+   margin-top: 30px;
+   height: 1000px;
+ &__title{
+    /* How it works */
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-align: center;
+
+color: #83888F;
+}
+&__top{
+    display: none ;
+   }
+   &__subtitle{
+    position: relative;
+    /* 01 */
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+/* identical to box height, or 100% */
+text-align: center;
+
+color: #FDD6BA;
+   }
+   &__maintitle{
+   
+    /* Pick your coffee */
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 28px;
+line-height: 32px;
+/* identical to box height, or 114% */
+text-align: center;
+
+color: #333D4B;
+   }
+    &__text{
+    /* Select from our evol */
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+text-align: center;
+
+color: #333D4B;
+}
+ &__card1{
+ position: absolute;
+left: 0%;
+right: 0%;
+top: 10.04%;
+bottom: 67.38%;
+margin-top: 10px;
+}
+&__card2{
+    /* Group 14 Copy */
+margin-top: 200px;
+position: absolute;
+left: 0%;
+right: 0%;
+top: 37.63%;
+bottom: 39.78%;
+margin-top: 50px;
+   }
+    &__card3{
+    /* Group 14 Copy 2 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 65.23%;
+bottom: 12.1%;
+margin-top: 100px;
+   }
+
+  }
+
+
+
+
+}
