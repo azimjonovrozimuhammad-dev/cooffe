@@ -434,7 +434,10 @@ a {
 
 @media only screen and (max-width: 480px) {
   .work {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     margin-top: 1000px;
   }
@@ -453,7 +456,6 @@ a {
     display: none;
   }
   .work__subtitle {
-    position: relative;
     /* 01 */
     font-family: "Fraunces";
     font-style: normal;
@@ -486,8 +488,14 @@ a {
     text-align: center;
     color: #333D4B;
   }
-  .work__card1 {
-    position: absolute;
+  .work__bottom {
+    flex-direction: column;
+  }
+  .work__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
     left: 0%;
     right: 0%;
     top: 10.04%;
@@ -495,9 +503,12 @@ a {
     margin-top: 30px;
   }
   .work__card2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
     /* Group 14 Copy */
     margin-top: 200px;
-    position: absolute;
     left: 0%;
     right: 0%;
     top: 37.63%;
@@ -506,7 +517,10 @@ a {
   }
   .work__card3 {
     /* Group 14 Copy 2 */
-    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
     left: 0%;
     right: 0%;
     top: 65.23%;
@@ -515,12 +529,11 @@ a {
   }
   .work__btn {
     /* Group 3 */
-    position: absolute;
     left: 16.82%;
     right: 16.82%;
     top: 94.98%;
     bottom: 0%;
-    margin-top: 820px;
+    margin-top: 10px;
   }
 }
 .footer {
@@ -533,7 +546,7 @@ a {
   margin-top: 70px;
 }
 .footer__logo {
-  width: 200px;
+  width: 100px;
 }
 .footer__list {
   display: flex;
@@ -549,10 +562,33 @@ a {
   background-color: rgb(67, 28, 28);
 }
 .footer__img {
-  width: 20px;
-  height: 20px;
+  width: 150px;
+}
+.footer__social {
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
 }
 
+@media only screen and (max-width: 480px) {
+  .footer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+  }
+  .footer__list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}
 .abautIntro {
   margin-top: 70px;
   height: 400px;
@@ -933,7 +969,7 @@ a {
 }
 .work2__subtitle {
   /* 01 */
-  font-family: "Fraunces 9pt";
+  font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -1206,6 +1242,39 @@ a {
   margin-top: 20px;
 }
 
+@media only screen and (max-width: 480px) {
+  .drink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .drink__left {
+    display: none;
+  }
+  .drink__right {
+    width: 100%;
+  }
+  .drink__card-bottom {
+    flex-direction: column;
+  }
+  .drink__card-bottom-card {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .order {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+  }
+  .order .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .order__right {
   display: flex;
   justify-content: space-between;

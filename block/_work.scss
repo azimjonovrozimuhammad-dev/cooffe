@@ -83,107 +83,116 @@
 }
 
 @media only screen and (max-width:480px) {
-    .work{
-        position: relative;
-   width: 100%;
-   margin-top: 1000px;
-   &__title{
-    /* How it works */
-font-family: 'Fraunces';
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 32px;
-/* identical to box height, or 133% */
-text-align: center;
+    .work {
 
-color: #83888F;
-   }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 1000px;
 
-   &__top{
-    display: none ;
-   }
-   &__subtitle{
-    position: relative;
-    /* 01 */
-font-family: 'Fraunces';
-font-style: normal;
-font-weight: 900;
-font-size: 72px;
-line-height: 72px;
-/* identical to box height, or 100% */
-text-align: center;
+        &__title {
+            /* How it works */
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            /* identical to box height, or 133% */
+            text-align: center;
 
-color: #FDD6BA;
+            color: #83888F;
+        }
 
+        &__top {
+            display: none;
+        }
 
-   }
-   &__maintitle{
-   
-    /* Pick your coffee */
-font-family: 'Fraunces';
-font-style: normal;
-font-weight: 900;
-font-size: 28px;
-line-height: 32px;
-/* identical to box height, or 114% */
-text-align: center;
+        &__subtitle {
+            /* 01 */
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            /* identical to box height, or 100% */
+            text-align: center;
 
-color: #333D4B;
-   }
-   &__text{
-    /* Select from our evol */
-font-family: 'Barlow';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 25px;
-/* or 167% */
-text-align: center;
+            color: #FDD6BA;
+        }
 
-color: #333D4B;
+        &__maintitle {
+            /* Pick your coffee */
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 32px;
+            /* identical to box height, or 114% */
+            text-align: center;
 
+            color: #333D4B;
+        }
 
-   }
-   &__card1{
- position: absolute;
-left: 0%;
-right: 0%;
-top: 10.04%;
-bottom: 67.38%;
-margin-top: 30px;
-   }
-   &__card2{
-    /* Group 14 Copy */
-margin-top: 200px;
-position: absolute;
-left: 0%;
-right: 0%;
-top: 37.63%;
-bottom: 39.78%;
-margin-top: 300px;
-   }
-   &__card3{
-    /* Group 14 Copy 2 */
+        &__text {
+            /* Select from our evol */
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            /* or 167% */
+            text-align: center;
+            color: #333D4B;
+        }
 
-position: absolute;
-left: 0%;
-right: 0%;
-top: 65.23%;
-bottom: 12.1%;
-margin-top: 600px;
-   }
-   &__btn{
-    /* Group 3 */
+        &__bottom{
+            flex-direction: column
+        }
 
-position: absolute;
-left: 16.82%;
-right: 16.82%;
-top: 94.98%;
-bottom: 0%;
+        &__card {
 
- margin-top: 820px;
-   }
+            @include Display();
+            flex-direction: column;
+            left: 0%;
+            right: 0%;
+            top: 10.04%;
+            bottom: 67.38%;
+            margin-top: 30px;
+        }
+
+        &__card2 {
+            @include Display();
+            flex-direction: column;
+            /* Group 14 Copy */
+            margin-top: 200px;
+            left: 0%;
+            right: 0%;
+            top: 37.63%;
+            bottom: 39.78%;
+            margin-top: 300px;
+        }
+
+        &__card3 {
+            /* Group 14 Copy 2 */
+            @include Display();
+            flex-direction: column;
+            left: 0%;
+            right: 0%;
+            top: 65.23%;
+            bottom: 12.1%;
+            margin-top: 600px;
+        }
+
+        &__btn {
+            /* Group 3 */
+            left: 16.82%;
+            right: 16.82%;
+            top: 94.98%;
+            bottom: 0%;
+
+            margin-top: 10px;
+        }
     }
 }
-
