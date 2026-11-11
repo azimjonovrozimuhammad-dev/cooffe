@@ -1145,7 +1145,7 @@ a {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 48px;
   /* identical to box height, or 120% */
   color: #83888F;
@@ -1172,10 +1172,10 @@ a {
   gap: 30px;
   text-align: center;
   padding: 30px 20px;
-  background-color: aqua;
+  background-color: rgb(211, 211, 211);
 }
 .drink__card-bottom-card:hover {
-  background-color: antiquewhite;
+  background-color: rgb(206, 123, 14);
 }
 .drink__card-bottom-card:active {
   background-color: #333D4B;
@@ -1240,6 +1240,17 @@ a {
   color: #FEFCF7;
   border: none;
   margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -1267,12 +1278,37 @@ a {
     width: 100%;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 400px;
   }
   .order .btn {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .order__title {
+    width: 100%;
+    /* Order Summary */
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  .order__text {
+    width: 100%;
+    /* “I drink my coffee a */
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+    color: #FFFFFF;
   }
 }
 .order__right {

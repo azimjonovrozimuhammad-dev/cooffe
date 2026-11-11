@@ -61,7 +61,7 @@ color: #333D4B;
     font-family: 'Fraunces';
   font-style: normal;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 48px;
   /* identical to box height, or 120% */
     color: #83888F;
@@ -85,9 +85,9 @@ color: #333D4B;
         gap: 30px;
         text-align: center;
         padding: 30px 20px;
-        background-color: aqua;
+        background-color:rgb(211, 211, 211);
         &:hover{
-            background-color: antiquewhite;
+            background-color: rgb(206, 123, 14);
         }
         &:active{
             background-color: #333D4B;
@@ -138,6 +138,17 @@ margin-top: 20px;
 .btn{
   @include btn();
   margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width:480px) {
@@ -160,22 +171,55 @@ margin-top: 20px;
         width: 100%;
       }
     }
+
+    }
   }
   
-}
+
 @media only screen and (max-width:480px) {
   .order{
     width: 100%;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 400px;
+  
     .btn{
       display: flex;
      align-items: center;
      justify-content: center; 
-     
     }
+    &__title{
+      width: 100%;
+      /* Order Summary */
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+text-transform: uppercase;
 
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+
+    }
+    &__text{
+      width: 100%;
+      /* “I drink my coffee a */
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+color: #FFFFFF;
+
+
+    }
+    
   }
   
 }
