@@ -56,3 +56,17 @@
     }
 }
 
+@media only screen and (max-width:912px){
+    .navbar{
+        &__list{
+            display: none;
+        }
+        &__burger{
+            display: flex;
+        }
+        &__logo{
+            width: 180px;
+        }
+    }
+}
+
